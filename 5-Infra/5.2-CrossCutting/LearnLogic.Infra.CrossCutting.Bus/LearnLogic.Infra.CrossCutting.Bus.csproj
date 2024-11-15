@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="NetDevPack" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\4-Domain\LearnLogic.Domain\LearnLogic.Domain.csproj" />
+    <ProjectReference Include="..\LearnLogic.Infra.CrossCutting.Extensions\LearnLogic.Infra.CrossCutting.Extensions.csproj" />
+  </ItemGroup>
+
+</Project>

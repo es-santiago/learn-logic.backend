@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{8F2F78F2-29EE-4701-AD91-E4967A8A222A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Services", "2-Services", "{0BF5945B-EEA2-4FBC-8BDB-A1D16EF4C451}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Application", "3-Application", "{7A8E892C-FBD5-47AE-B286-778AFFFABA0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Domain", "4-Domain", "{3DDF6413-7A2C-48F3-935F-E1AD4F7B9C44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Infra", "5-Infra", "{42D46822-38D2-45D2-AAFD-0418C26B7400}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1-Data", "5.1-Data", "{C9A9BAF5-6ADA-4D2D-80C6-62D8C72E6CF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2-CrossCutting", "5.2-CrossCutting", "{25C10ED2-E75F-4AEA-A557-197F0CC04897}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnLogic.Services", "2-Service\LearnLogic.Services\LearnLogic.Services.csproj", "{52A4256E-4CDF-47C2-AF98-0B03216D236E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnLogic.Application", "3-Application\LearnLogic.Application\LearnLogic.Application.csproj", "{472ED3BB-72DE-4C79-A1E2-A3186D5AF9A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnLogic.Domain", "4-Domain\LearnLogic.Domain\LearnLogic.Domain.csproj", "{3E37208A-C6A8-4692-AB1E-E898E0A25293}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnLogic.Infra.Data", "5-Infra\5.1-Data\LearnLogic.Infra.Data\LearnLogic.Infra.Data.csproj", "{B79DE039-060C-45C6-9A16-EAECDFB2A91B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnLogic.Infra.CrossCutting.APIConfiguration", "5-Infra\5.2-CrossCutting\LearnLogic.Infra.CrossCutting.APIConfiguration\LearnLogic.Infra.CrossCutting.APIConfiguration.csproj", "{484C1CFB-A359-4AE2-965B-80DCB5F393AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnLogic.Infra.CrossCutting.Bus", "5-Infra\5.2-CrossCutting\LearnLogic.Infra.CrossCutting.Bus\LearnLogic.Infra.CrossCutting.Bus.csproj", "{EBC98AAC-BADC-451A-B487-866B15EF4DBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnLogic.Infra.CrossCutting.Extensions", "5-Infra\5.2-CrossCutting\LearnLogic.Infra.CrossCutting.Extensions\LearnLogic.Infra.CrossCutting.Extensions.csproj", "{A6BFF76A-71B9-4B2C-BA38-42BBDD8DDA60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnLogic.Infra.CrossCutting.Identity", "5-Infra\5.2-CrossCutting\LearnLogic.Infra.CrossCutting.Identity\LearnLogic.Infra.CrossCutting.Identity.csproj", "{03022682-08B1-42D2-B7F2-3141E7C2830A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnLogic.Infra.CrossCutting.IoC", "5-Infra\5.2-CrossCutting\LearnLogic.Infra.CrossCutting.IoC\LearnLogic.Infra.CrossCutting.IoC.csproj", "{F9790237-E00E-40B7-A450-83F073EF8E35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52A4256E-4CDF-47C2-AF98-0B03216D236E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A4256E-4CDF-47C2-AF98-0B03216D236E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A4256E-4CDF-47C2-AF98-0B03216D236E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A4256E-4CDF-47C2-AF98-0B03216D236E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{472ED3BB-72DE-4C79-A1E2-A3186D5AF9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{472ED3BB-72DE-4C79-A1E2-A3186D5AF9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{472ED3BB-72DE-4C79-A1E2-A3186D5AF9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{472ED3BB-72DE-4C79-A1E2-A3186D5AF9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E37208A-C6A8-4692-AB1E-E898E0A25293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E37208A-C6A8-4692-AB1E-E898E0A25293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E37208A-C6A8-4692-AB1E-E898E0A25293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E37208A-C6A8-4692-AB1E-E898E0A25293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B79DE039-060C-45C6-9A16-EAECDFB2A91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79DE039-060C-45C6-9A16-EAECDFB2A91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79DE039-060C-45C6-9A16-EAECDFB2A91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79DE039-060C-45C6-9A16-EAECDFB2A91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{484C1CFB-A359-4AE2-965B-80DCB5F393AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484C1CFB-A359-4AE2-965B-80DCB5F393AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484C1CFB-A359-4AE2-965B-80DCB5F393AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484C1CFB-A359-4AE2-965B-80DCB5F393AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC98AAC-BADC-451A-B487-866B15EF4DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC98AAC-BADC-451A-B487-866B15EF4DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC98AAC-BADC-451A-B487-866B15EF4DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC98AAC-BADC-451A-B487-866B15EF4DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6BFF76A-71B9-4B2C-BA38-42BBDD8DDA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BFF76A-71B9-4B2C-BA38-42BBDD8DDA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BFF76A-71B9-4B2C-BA38-42BBDD8DDA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BFF76A-71B9-4B2C-BA38-42BBDD8DDA60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03022682-08B1-42D2-B7F2-3141E7C2830A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03022682-08B1-42D2-B7F2-3141E7C2830A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03022682-08B1-42D2-B7F2-3141E7C2830A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03022682-08B1-42D2-B7F2-3141E7C2830A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9790237-E00E-40B7-A450-83F073EF8E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9790237-E00E-40B7-A450-83F073EF8E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9790237-E00E-40B7-A450-83F073EF8E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9790237-E00E-40B7-A450-83F073EF8E35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9A9BAF5-6ADA-4D2D-80C6-62D8C72E6CF6} = {42D46822-38D2-45D2-AAFD-0418C26B7400}
+		{25C10ED2-E75F-4AEA-A557-197F0CC04897} = {42D46822-38D2-45D2-AAFD-0418C26B7400}
+		{52A4256E-4CDF-47C2-AF98-0B03216D236E} = {0BF5945B-EEA2-4FBC-8BDB-A1D16EF4C451}
+		{472ED3BB-72DE-4C79-A1E2-A3186D5AF9A3} = {7A8E892C-FBD5-47AE-B286-778AFFFABA0E}
+		{3E37208A-C6A8-4692-AB1E-E898E0A25293} = {3DDF6413-7A2C-48F3-935F-E1AD4F7B9C44}
+		{B79DE039-060C-45C6-9A16-EAECDFB2A91B} = {C9A9BAF5-6ADA-4D2D-80C6-62D8C72E6CF6}
+		{484C1CFB-A359-4AE2-965B-80DCB5F393AA} = {25C10ED2-E75F-4AEA-A557-197F0CC04897}
+		{EBC98AAC-BADC-451A-B487-866B15EF4DBA} = {25C10ED2-E75F-4AEA-A557-197F0CC04897}
+		{A6BFF76A-71B9-4B2C-BA38-42BBDD8DDA60} = {25C10ED2-E75F-4AEA-A557-197F0CC04897}
+		{03022682-08B1-42D2-B7F2-3141E7C2830A} = {25C10ED2-E75F-4AEA-A557-197F0CC04897}
+		{F9790237-E00E-40B7-A450-83F073EF8E35} = {25C10ED2-E75F-4AEA-A557-197F0CC04897}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AB0D455-3B19-41D6-AFFC-646A2FA15A26}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+	<PackageReference Include="NetDevPack" Version="7.0.1" />
+	<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\4-Domain\LearnLogic.Domain\LearnLogic.Domain.csproj" />
+    <ProjectReference Include="..\..\5-Infra\5.2-CrossCutting\LearnLogic.Infra.CrossCutting.Extensions\LearnLogic.Infra.CrossCutting.Extensions.csproj" />
+    <ProjectReference Include="..\..\5-Infra\5.2-CrossCutting\LearnLogic.Infra.CrossCutting.Identity\LearnLogic.Infra.CrossCutting.Identity.csproj" />
+  </ItemGroup>
+
+</Project>

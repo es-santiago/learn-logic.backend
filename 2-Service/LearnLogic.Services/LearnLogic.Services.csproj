@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<!--<Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>-->
+		<UserSecretsId>d22b4eba-2604-430c-bfa6-34174234f55c</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.9" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.9">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.9">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\4-Domain\LearnLogic.Domain\LearnLogic.Domain.csproj" />
+	  <ProjectReference Include="..\..\5-Infra\5.2-CrossCutting\LearnLogic.Infra.CrossCutting.APIConfiguration\LearnLogic.Infra.CrossCutting.APIConfiguration.csproj" />
+	  <ProjectReference Include="..\..\5-Infra\5.2-CrossCutting\LearnLogic.Infra.CrossCutting.Extensions\LearnLogic.Infra.CrossCutting.Extensions.csproj" />
+	  <ProjectReference Include="..\..\5-Infra\5.2-CrossCutting\LearnLogic.Infra.CrossCutting.Identity\LearnLogic.Infra.CrossCutting.Identity.csproj" />
+	  <ProjectReference Include="..\..\5-Infra\5.2-CrossCutting\LearnLogic.Infra.CrossCutting.IoC\LearnLogic.Infra.CrossCutting.IoC.csproj" />
+	</ItemGroup>
+
+</Project>
